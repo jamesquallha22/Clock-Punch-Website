@@ -1,0 +1,17 @@
+@font-face {
+    font-family: '210_santoriniregular';
+    src: url('210_santorini-webfont.woff2') format('woff2'),
+         url('210_santorini-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gooddog_newregular';
+    src: url('gooddog_new-webfont.woff2') format('woff2'),
+         url('gooddog_new-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
