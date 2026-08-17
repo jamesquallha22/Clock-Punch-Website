@@ -41,7 +41,7 @@ p {
   top: 0;
   width: 100%;
   background-color: #D34256;
-  z-index: 1;
+  z-index: 2;
 }
 
 #navbar a {
@@ -81,6 +81,7 @@ p {
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-fill-mode: both;
+
 }
 
 @keyframes orangeZoom {
@@ -103,7 +104,7 @@ p {
 
 @keyframes yellowZoom {
   0% { transform: scale(0);  opacity: 0; }
-  100% { transform: scale(1) translate(0vw, 7%);  opacity: 1; }
+  100% { transform: scale(1) translate(0vw, 3vw);  opacity: 1; }
 }
 
 img {
@@ -127,7 +128,7 @@ img {
 
 @keyframes logoZoom {
   0% { transform: scale(0);  opacity: 0; }
-  100% { transform: scale(1) translate(0vw, 15%);  opacity: 1; }
+  100% { transform: scale(1) translate(0vw, 6vw);  opacity: 1; }
 }
 .landing-text-blue{
   display: inline-block; 
@@ -137,6 +138,7 @@ img {
   padding-bottom: 2vw;
   padding-top: 2vw;
   box-shadow: 8px 8px #fff;
+  cursor: default;
   z-index: 1;
   text-align: center;
   background-color: #5A8CBE;
@@ -165,6 +167,7 @@ img {
   padding-bottom: 2vw;
   padding-top: 2vw;
   box-shadow: 8px 8px #fff;
+  cursor: default;
   z-index: 1;
   text-align: center;
   background-color: #92CF69;
